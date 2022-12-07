@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Shopping Portfolio</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-branding">
+      <h1 class="site-title"><a href="home.html" rel="home"><img src="images/logo.png" alt="Logo"></a></h1>
+    </div><!-- .site-branding -->
+
+    <div class="hamburger-menu">
+      <div class="menu-icon">
+        <img src="images/menu-icon.png" alt="menu icon">
+      </div><!-- .menu-icon -->
+
+      <div class="menu-close-icon">
+        <img src="images/x.png" alt="menu close icon">
+      </div><!-- .menu-close-icon -->
+    </div><!-- .hamburger-menu -->
+  </header><!-- .site-header -->
+
+  <nav class="site-navigation flex flex-column justify-content-between">
+    <div class="site-branding d-none d-lg-block">
+      <h1 class="site-title"><a href="home.html" rel="home"><img src="images/logo2.png" alt="Logo"></a></h1>
+    </div><!-- .site-branding -->
+
+    <ul class="main-menu flex flex-column justify-content-center">
+      <li class="current-menu-item"><a href="home.html">Home</a></li>
+      <li><a href="#" onclick="openLinks();">Open links</a></li>
+      <li><a href="consumer-goods.html">Consumer goods</a></li>
+      <li><a href="./wish-list.html">Wish list</a></li>
+      <li><a href="second-rate.html">Second-rate</a></li>
+      <li><a href="mailto:giovany.goncalves@yahoo.com">Email me</a></li>
+    </ul>
+
+    <p>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      Copyright &copy;<script>
+        document.write(new Date().getFullYear());
+      </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    </p>
+  </nav><!-- .site-navigation -->
+
+  <div class="nav-bar-sep d-lg-none"></div>
+
+  <div class="outer-container home-page">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/repassa.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.repassa.com.br/" target="_blank">Repassa</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/shopee.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://shopee.com.br/" target="_blank">Shopee</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://shopee.com.br/m/cupom-de-desconto" target="_blank">Cupons.</a></li>
+                <li><a href="#">Shopping do Nubank.</a></li>
+                <li><a href="https://www.cuponomia.com.br/desconto/shopee" target="_blank">Cuponomia</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/amazon.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.amazon.com.br/" target="_blank">Amazon</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.amazon.com.br/hz/wishlist/ls/2GZOQVNG0H9U4?type=wishlist&filter=unpurchased&sort=price-asc&viewType=list" target="_blank">Wishlist.</a></li>
+                <li><a href="https://keepa.com/#!" target="_blank">Keepa.</a></li>
+                <li><a href="https://www.cuponomia.com.br/desconto/amazon" target="_blank">Cuponomia</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/netshoes.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.netshoes.com.br/" target="_blank">Netshoes</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.netshoes.com.br/wishlist" target="_blank" class="to-open">Lista de Desejos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/clube-netshoes.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://clube.netshoes.com.br/" target="_blank">Clube Netshoes</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://clube.netshoes.com.br/wishlist" target="_blank" class="to-open">Lista de Desejos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/zattini.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.zattini.com.br/" target="_blank">Zattini</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.zattini.com.br/wishlist" target="_blank" class="to-open">Lista de Desejos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/centauro.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.centauro.com.br/" target="_blank">Centauro</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/futfanatics.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.futfanatics.com.br/" target="_blank">FutFanatics</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/authentic-feet.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.authenticfeet.com.br/" target="_blank">Authentic Feet</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/loja-virus-41.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.lojavirus.com.br/" target="_blank">Loja Virus 41</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/nike.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.nike.com.br/" target="_blank">Nike</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.nike.com.br/camiseta-nike-sportswear-masculina-016275.html?cor=ID" target="_blank" class="to-open">Camiseta Manga Longa</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/adidas.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.adidas.com.br/" target="_blank">adidas</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/vans.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.vans.com.br/" target="_blank">Vans</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/vert-shoes.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.vert-shoes.com.br/" target="_blank">Vert Shoes</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/shop2gether.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.shop2gether.com.br/" target="_blank">Shop2gether</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/oqvestir.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.oqvestir.com.br/" target="_blank">OQVestir</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/privalia.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://br.privalia.com/" target="_blank">Privalia</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/dafiti.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.dafiti.com.br/" target="_blank">Dafiti</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/youcom.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.youcom.com.br/" target="_blank">Youcom</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+	<div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/oriba.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.oriba.com.br/" target="_blank">ORIBA</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/aramis.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.aramis.com.br/" target="_blank">Aramis</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/oficina-reserva.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.oficinareserva.com/" target="_blank">Oficina Reserva</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/levi.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.levi.com.br/" target="_blank">Levi's</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/gap.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.gapbrasil.com/" target="_blank">GAP</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/colcci.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.colcci.com.br/" target="_blank">Colcci</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/ultrafarma.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.ultrafarma.com.br/" target="_blank">Ultrafarma</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/drogasil.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.drogasil.com.br/" target="_blank">Drogasil</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/drogaria-sao-paulo.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.drogariasaopaulo.com.br/" target="_blank">Drogaria São Paulo</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/natura.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.natura.com.br/" target="_blank">Natura</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://sites.natura.com.br/revistanatura" target="_blank">Revista Digital</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/zoom.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.zoom.com.br/" target="_blank">Zoom</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/compare-techtudo.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://compare.techtudo.com.br/" target="_blank">Compare TechTudo</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/google-shopping.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.google.com.br/shopping" target="_blank">Google Shopping</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/reduza.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.reduza.com.br/" target="_blank">Reduza</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="./images/shopping-do-nubank.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="#">Shopping do Nubank</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://clube.netshoes.com.br/nubank" target="_blank">Clube Netshoes</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/cuponomia.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.cuponomia.com.br/" target="_blank">Cuponomia</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.cuponomia.com.br/desconto" target="_blank">Lojas</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/meliuz.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.meliuz.com.br/" target="_blank">Méliuz</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.meliuz.com.br/desconto" target="_blank">Lojas</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/promobit.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.promobit.com.br/" target="_blank">Promobit</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/pelando.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.pelando.com.br/" target="_blank">Pelando</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/visa.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://vaidevisa.visa.com.br/site/home" target="_blank">Vai de Visa</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.netshoes.com.br/vaidevisa" target="_blank">Netshoes.</a></li>
+                <li><a href="https://clube.netshoes.com.br/vaidevisa" target="_blank">Clube Netshoes.</a></li>
+                <li><a href="https://www.zattini.com.br/vaidevisa" target="_blank">Zattini</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/mastercard.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://surpreenda.naotempreco.com.br/" target="_blank">Mastercard Surpreenda</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.mastercard.com.br/pt-br/consumidores/experiencias-ofertas/ofertas-especiais.html" target="_blank">Ofertas Especiais.</a></li>
+                <li><a href="https://clube.netshoes.com.br/mastercard" target="_blank">Clube Netshoes.</a></li>
+                <li><a href="https://www.zattini.com.br/mastercard" target="_blank">Zattini</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/calendario-e-commerce.png" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://calendar.google.com/calendar/embed?src=p3uvm6bjtkssoilf2epto27k94%40group.calendar.google.com&ctz=America%2FSao_Paulo" target="_blank">Calendário e-commerce 2022</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/march-31.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.zattini.com.br/" target="_blank">15% OFF</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.zattini.com.br/institucional/regulamentos" target="_blank">no mês do seu aniversário</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/april-16.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.zattini.com.br/" target="_blank">15% OFF</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.zattini.com.br/institucional/regulamentos" target="_blank">no mês do seu aniversário</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+          <div class="portfolio-content">
+            <figure>
+              <img src="images/may-4.jpg" alt="">
+            </figure>
+
+            <div class="entry-content flex flex-column align-items-center justify-content-center">
+              <h3><a href="https://www.zattini.com.br/" target="_blank">15% OFF</a></h3>
+
+              <ul class="flex flex-wrap justify-content-center">
+                <li><a href="https://www.zattini.com.br/institucional/regulamentos" target="_blank">no mês do seu aniversário</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
